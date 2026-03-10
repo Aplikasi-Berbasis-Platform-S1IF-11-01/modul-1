@@ -60,7 +60,7 @@ Git adalah salah satu sistem pengontrol versi (Version Control System) pada proy
 
 ## 2.2 Instalasi Git
 Disini saya sudah pernah install git 2.33.0.windows.2 dan saya melakukan pengecekan git pada CMD agar pasti sudah terinstall.
-![Gambar 1](Images/Instalisasi%20Git.png)
+
 
 ## 2.3 Penggunaan Git
 ### 2.3.1 Membuat repository
