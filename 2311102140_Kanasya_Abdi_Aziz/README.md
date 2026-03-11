@@ -4,7 +4,7 @@
   <br />
   <h3>MODUL 1 <br> GIT</h3>
   <br />
-  <img src="assets/logo.png" alt="Logo" width="300"> 
+  <img src="logo.png" alt="Logo" width="300"> 
   <br />
   <br />
   <br />
