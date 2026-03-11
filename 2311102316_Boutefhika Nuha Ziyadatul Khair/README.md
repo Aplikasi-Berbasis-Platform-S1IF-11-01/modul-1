@@ -108,7 +108,8 @@ D:\Praktikum ABP\modul1>
 Untuk dapat bekerja sama dengan orang lain, kita dapat melakukan cloning repositori orang lain, berikut ini caranya:
 
 - Buka repositori yang akan di-clone pada Github, lalu klik tombol clone. Copy text yang muncul seperti dibawah ini, ini merupakan url dari repositori tujuan yang akan di clone.
-  ![Gambar 4](Image/Clone.png)
+
+   ![Gambar 4](Image/Clone.png)
 - Buka command prompt dan ketikan perintah ini
   ![Gambar 5](Image/Git%20Clone.png)
   
