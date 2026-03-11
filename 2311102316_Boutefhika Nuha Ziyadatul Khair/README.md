@@ -116,6 +116,7 @@ Untuk dapat bekerja sama dengan orang lain, kita dapat melakukan cloning reposit
 - Buka command prompt dan ketikan perintah ini
   ![Gambar 5](Image/Git%20Clone.png)
   
-# UNGUIDED (Melakukan setup repository via CLI)
+# UNGUIDED 
+Melakukan setup repository via CLI
 Untuk langkah - langkahnya ada dibagian dasar teori Pembuatan Git. Hasil setup repository via CLI:
 ![Gambar 6](Image/Hasil%20Akhir.png)
