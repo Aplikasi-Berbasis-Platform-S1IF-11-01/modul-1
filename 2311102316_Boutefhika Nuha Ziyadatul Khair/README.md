@@ -74,6 +74,9 @@ Setelah instalasi Git selesai, lakukan pengecekan dengan membuka Command Prompt 
 - Kode program
   
 ```
+//2311102316
+//Boutefhika Nuha Ziyadatul Khair
+
 D:\Praktikum ABP>git init modul1
 Initialized empty Git repository in D:/Praktikum ABP/modul1/.git/
 
