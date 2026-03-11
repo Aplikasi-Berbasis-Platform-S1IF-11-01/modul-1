@@ -59,29 +59,37 @@ UNIVERSITAS TELKOM PURWOKERTO <br>
 Git adalah salah satu sistem pengontrol versi (Version Control System) pada proyek perangkat lunak yang diciptakan oleh Linus Torvalds. Pengontrol versi bertugas mencatat setiap perubahan pada file proyek yang dikerjakan oleh banyak orang maupun sendiri. Git dikenal juga dengan distributed revision control (VCS terdistribusi), artinya penyimpanan database Git tidak hanya berada dalam satu tempat saja.
 
 ## 2.2 Instalasi Git
-Disini saya sudah pernah install git 2.33.0.windows.2 dan saya melakukan pengecekan git pada CMD agar pasti sudah terinstall.
-
+Setelah instalasi Git selesai, lakukan pengecekan dengan membuka Command Prompt dan mengetikkan perintah git --version. Perintah ini digunakan untuk memastikan bahwa Git telah berhasil terpasang pada PC atau laptop.
+![Gambar 1](Image/Installasi%20Git.png)
 
 ## 2.3 Penggunaan Git
 ### 2.3.1 Membuat repository
 - Buka Github.com  
-- Buat dan isi detail repository yang akan dibuat  
+- Buat dan isi detail repository yang akan dibuat
+  ![Gambar 2](Image/Buat%20Repo.png)
 - Klik **Create Repository**
 - Jika sudah, akan muncul langkah-langkah untuk membuat repository dengan CMD
 - Ikuti langkah-langkah seperti berikut
-- Berikut kode programnya
+  ![Gambar 3](Image/Proses.png)
+- Kode program
   
 ```
 D:\Praktikum ABP>git init modul1
 Initialized empty Git repository in D:/Praktikum ABP/modul1/.git/
+
 D:\Praktikum ABP>cd modul1
+
 D:\Praktikum ABP\modul1>git add .
+
 D:\Praktikum ABP\modul1>git commit -m "test"
 [master (root-commit) 08054bf] test
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 nuha.txt
+
 D:\Praktikum ABP\modul1>git branch -M ok
+
 D:\Praktikum ABP\modul1>git remote add origin https://github.com/nhaazk95/modul1.git
+
 D:\Praktikum ABP\modul1>git push -u origin ok
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
@@ -90,12 +98,20 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/nhaazk95/modul1.git
  * [new branch]      ok -> ok
 branch 'ok' set up to track 'origin/ok'.
+
 D:\Praktikum ABP\modul1>
 ```
 
 - Jika sudah, refresh halaman Github dan repository berhasil dibuat
 
 ### 2.3.2 Clone Repository milik orang lain
+Untuk dapat bekerja sama dengan orang lain, kita dapat melakukan cloning repositori orang lain, berikut ini caranya:
 
+- Buka repositori yang akan di-clone pada Github, lalu klik tombol clone.
+  
+- Copy text yang muncul seperti dibawah ini, ini merupakan url dari repositori tujuan yang akan di clone.
+  
+- Buka command prompt dan ketikan perintah ini
+  
 # UNGUIDED (Melakukan setup repository via CLI)
 Sudah dilakukan dibagian atas pada dasar teori
