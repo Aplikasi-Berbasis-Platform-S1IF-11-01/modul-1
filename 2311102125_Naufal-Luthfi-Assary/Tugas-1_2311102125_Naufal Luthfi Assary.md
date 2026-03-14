@@ -13,7 +13,7 @@
   <h3>Disusun Oleh :</h3>
   <p>
     <strong>NAUFAL LUTHFI ASSARY</strong><br>
-    <strong>2311102129</strong><br>
+    <strong>2311102125</strong><br>
     <strong>S1 IF-11-REG01</strong>
   </p>
   <br />
@@ -47,6 +47,7 @@ Setelah file masuk ke area staging, langkah berikutnya adalah melakukan commit d
 Selain repositori lokal, Git juga dapat dihubungkan dengan repositori online, salah satunya melalui platform GitHub. GitHub berfungsi sebagai layanan penyimpanan repositori berbasis cloud yang memungkinkan pengguna menyimpan hasil pekerjaan secara daring, membagikan proyek, dan berkolaborasi dengan pengguna lain. Untuk menghubungkan repositori lokal dengan repositori online digunakan perintah git remote add origin [URL repositori]. Setelah itu, data dari komputer lokal dapat dikirimkan ke GitHub menggunakan perintah git push -u origin main atau git push -u origin master, tergantung nama branch yang digunakan. Proses ini memungkinkan file lokal, seperti test.txt, tersimpan di repositori online sehingga dapat diakses kembali dan didokumentasikan sebagai bagian dari hasil praktikum.  ￼
 
 Git juga mendukung proses clone, yaitu menggandakan repositori milik sendiri atau orang lain dari GitHub ke komputer lokal dengan perintah git clone [URL repositori]. Fitur ini sangat berguna dalam kerja tim karena setiap anggota dapat memperoleh salinan proyek yang sama, lalu mengembangkan atau memodifikasi proyek tersebut dari perangkat masing-masing. Dengan demikian, Git tidak hanya bermanfaat untuk penyimpanan versi file, tetapi juga sangat penting dalam mendukung kolaborasi, pengelolaan proyek, dan dokumentasi pengembangan perangkat lunak secara sistematis.
+
 ---
 
 ## 2. Setup Repository via CLI
@@ -66,7 +67,6 @@ Begitu repositori selesai dibuat, GitHub akan secara otomatis menampilkan daftar
 ### Langkah 3: Membuat Folder Proyek dan File serta Membuka CMD dari Direktori Folder Proyek
 
 ![Langkah 3](assets/3.png)
-(assets/4.png)
 Langkah berikutnya, siapkan folder lokal di komputer Anda. Di dalamnya, buatlah satu file contoh seperti **test.txt** yang nantinya akan berfungsi sebagai konten untuk commit pertama.
 
 Setelah itu, buka Command Prompt (CMD) atau Terminal dan arahkan lokasinya agar tepat berada di dalam folder proyek tersebut. Pastikan path sudah sesuai agar semua perintah Git yang dijalankan mengarah ke direktori yang benar.
