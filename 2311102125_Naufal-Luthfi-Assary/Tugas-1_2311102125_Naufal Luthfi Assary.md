@@ -36,29 +36,18 @@
 
 ## 1. Dasar Teori
 
-<p style="text-align: justify;">
+
 **Git** merupakan sistem pengontrol versi (Version Control System / VCS) yang digunakan untuk mencatat, mengelola, dan melacak setiap perubahan pada file atau proyek perangkat lunak. Git diciptakan oleh Linus Torvalds dan dikenal sebagai distributed version control, yaitu sistem kontrol versi yang memungkinkan salinan basis data repositori dimiliki secara lokal pada tiap komputer pengguna, sehingga pengelolaan versi tidak hanya bergantung pada satu server pusat. Dengan Git, pengembang dapat mengetahui riwayat perubahan file, mengembalikan file ke versi sebelumnya, serta mendukung kerja kolaboratif dalam pengembangan perangkat lunak.  ￼
-</p>
 
-<p style="text-align: justify;">
 Dalam penggunaannya, Git bekerja melalui konsep repositori. Repositori adalah tempat penyimpanan seluruh file proyek beserta riwayat perubahannya. Untuk membuat repositori baru secara lokal digunakan perintah git init. Setelah perintah ini dijalankan, Git akan membuat direktori tersembunyi bernama .git yang berfungsi sebagai database untuk menyimpan seluruh catatan perubahan pada proyek. Dengan adanya repositori lokal, setiap perubahan file dapat dipantau dan dikelola dengan lebih terstruktur.  ￼
-</p>
 
-<p style="text-align: justify;">
 Setelah repositori dibuat, file yang akan dimasukkan ke dalam pengelolaan Git harus melalui proses staging menggunakan perintah git add. Pada tahap ini, Git menandai file tertentu agar siap disimpan ke dalam riwayat repositori. Sebelum file ditambahkan, Git biasanya menampilkan status file sebagai untracked files, yang berarti file tersebut belum tercatat di dalam repositori. Untuk melihat kondisi file dan status perubahan yang terjadi, digunakan perintah git status. Perintah ini sangat penting karena membantu pengguna mengetahui file mana yang belum dilacak, sedang dipersiapkan, atau sudah tersimpan.  ￼
-</p>
 
-<p style="text-align: justify;">
 Setelah file masuk ke area staging, langkah berikutnya adalah melakukan commit dengan perintah git commit -m "pesan commit". Commit merupakan proses penyimpanan perubahan ke dalam riwayat repositori secara permanen. Setiap commit sebaiknya disertai pesan yang jelas agar memudahkan identifikasi perubahan yang telah dilakukan. Dengan demikian, riwayat perkembangan proyek dapat terdokumentasi dengan baik dan memudahkan penelusuran apabila terjadi kesalahan atau diperlukan evaluasi pada versi sebelumnya.  ￼
-</p>
 
-<p style="text-align: justify;">
 Selain repositori lokal, Git juga dapat dihubungkan dengan repositori online, salah satunya melalui platform GitHub. GitHub berfungsi sebagai layanan penyimpanan repositori berbasis cloud yang memungkinkan pengguna menyimpan hasil pekerjaan secara daring, membagikan proyek, dan berkolaborasi dengan pengguna lain. Untuk menghubungkan repositori lokal dengan repositori online digunakan perintah git remote add origin [URL repositori]. Setelah itu, data dari komputer lokal dapat dikirimkan ke GitHub menggunakan perintah git push -u origin main atau git push -u origin master, tergantung nama branch yang digunakan. Proses ini memungkinkan file lokal, seperti test.txt, tersimpan di repositori online sehingga dapat diakses kembali dan didokumentasikan sebagai bagian dari hasil praktikum.  ￼
-</p>
 
-<p style="text-align: justify;">
 Git juga mendukung proses clone, yaitu menggandakan repositori milik sendiri atau orang lain dari GitHub ke komputer lokal dengan perintah git clone [URL repositori]. Fitur ini sangat berguna dalam kerja tim karena setiap anggota dapat memperoleh salinan proyek yang sama, lalu mengembangkan atau memodifikasi proyek tersebut dari perangkat masing-masing. Dengan demikian, Git tidak hanya bermanfaat untuk penyimpanan versi file, tetapi juga sangat penting dalam mendukung kolaborasi, pengelolaan proyek, dan dokumentasi pengembangan perangkat lunak secara sistematis.
-</p>
 
 ---
 
