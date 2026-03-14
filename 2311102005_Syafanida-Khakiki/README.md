@@ -5,7 +5,7 @@
   <h2>MODUL 1 <br>GIT</h2>
   <br />
   <br />
-  <img src="assets/logo-telu.png" alt="Logo" width="300"> 
+  <img src="assets/logo Tel-U.png" alt="Logo" width="300"> 
   <br />
   <br />
   <br />
