@@ -75,42 +75,46 @@ Dengan mengeksekusi perintah git status kita dapat melihat file yang berubah yan
 
 # Tugas
 ## 1. Melakukan setup repository via CLI
-## Langkah Langkah
-1. Buat repository baru di github
+## Langkah Langkah:
+#### 1. Buat repository baru di github
 <img src="asset/gambar1.png">
-2. Siapkan folder lokal
+
+#### 2. Siapkan folder lokal
 <img src="asset/gambar3.png">
-3. Buka CMD dalam folder tersebut
-4. Eksekusi perintah GIt
+
+#### 3. Buka CMD dalam folder tersebut
+#### 4. Eksekusi perintah GIt
 <img src="asset/gambar2.png">
-5. Membuat file README
-```
+
+#### 5. Membuat file README
+~~~
 echo "2311102199\nIrshad Benaya Fardeca" >> README.md
-```
-6. Inisialisasi Git
-```
+~~~
+#### 6. Inisialisasi Git
+~~~
 git init
-```
-7. Menambahkan file ke Staging Area
-```
+~~~
+#### 7. Menambahkan file ke Staging Area
+~~~
 git add README.md
-```
-8. Melakukan Commit pertama
-```
+~~~
+#### 8. Melakukan Commit pertama
+~~~
 git commit -m "first commit"
-```
-9. Mengatur Branch Utama
-```
+~~~
+#### 9. Mengatur Branch Utama
+~~~
 git branch -M main
-```
-10. Menghubungkan ke GitHub
-```
+~~~
+#### 10. Menghubungkan ke GitHub
+~~~
 git remote add origin https://github.com/Cryoschr/Praktikum-ABP.git
-```
-11. Push ke GitHub
-```
+~~~
+#### 11. Push ke GitHub
+~~~
 git push -u origin main
-```
+~~~
+
 ### Hasil Akhirnya
 <img src="asset/gambar4.png">
 Git command dijalankan via CLI
