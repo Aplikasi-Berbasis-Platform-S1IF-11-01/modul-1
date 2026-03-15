@@ -12,7 +12,7 @@
   <h3>Disusun Oleh :</h3>
   <p>
     <strong>Syafanida Khakiki</strong><br>
-    <strong>2311102149</strong><br>
+    <strong>2311102005</strong><br>
     <strong>S1 IF-11-REG 01</strong>
   </p>
   <br />
