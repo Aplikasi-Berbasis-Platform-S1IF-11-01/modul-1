@@ -96,7 +96,8 @@ Berikut adalah tahapan yang dilakukan untuk melakukan inisialisasi dan pengatura
 
 
 
-!\[Langkah 1](./assets/repo.png)
+!\[Langkah 1]
+(./assets/repo.png)
 
 
 
@@ -108,7 +109,8 @@ Tahap pertama yang dilakukan adalah membuat repositori baru pada GitHub. Reposit
 
 
 
-!\[Langkah 2](./assets/perintah.png)
+!\[Langkah 2]
+(./assets/perintah.png)
 
 
 
@@ -120,7 +122,8 @@ Setelah repositori berhasil dibuat, GitHub akan menampilkan beberapa instruksi b
 
 
 
-!\[Langkah 3](./assets/file.png)
+!\[Langkah 3]
+(./assets/file.png)
 
 
 
@@ -132,7 +135,8 @@ Pada tahap ini dibuat sebuah folder proyek pada komputer lokal. Di dalam folder 
 
 
 
-!\[Langkah 4](assets/cmd.png)
+!\[Langkah 4]
+(assets/cmd.png)
 
 
 
@@ -144,7 +148,8 @@ Langkah selanjutnya adalah membuka Command Prompt (CMD) atau terminal dan memast
 
 
 
-!\[Langkah 6](./assets/cek.png)
+!\[Langkah 6]
+(./assets/cek.png)
 
 
 
